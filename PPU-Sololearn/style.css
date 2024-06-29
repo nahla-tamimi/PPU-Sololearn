@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Trebuchet MS, sans-serif;
+  background-color: #f3f4f6;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.logo {
+  height: 45px;
+  width: 45px;
+}
+
+.title {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.navbar-center {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+h3 {
+  margin-right: 20px;
+  font-weight: 100;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 20px;
+  color: rgb(50, 50, 50);
+}
+.button1 {
+  display: flex;
+  background-color: rgb(243, 196, 109);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button1 > img {
+  height: 20px;
+  width: 20px;
+}
+.button1 > span {
+  margin-left: 5px;
+  color: rgb(192, 130, 15);
+}
+.navbar-right {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+.nav-right-img1 {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.nav-right-img2 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+/* *************************************** */
+
+.header-question {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.divs4 {
+  display: flex;
+  justify-content: center;
+}
+.div-lang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 230px;
+  height: 230px;
+  margin-right: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.div-lang:hover {
+  margin-top: 15px;
+}
+.lang-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 3px rgb(148, 144, 144) solid;
+  margin-bottom: 20px;
+}
+h6 {
+  color: rgb(175, 178, 180);
+  margin-top: 10px;
+}
+.divs1 {
+  margin-left: 197px;
+}
